@@ -72,3 +72,14 @@
 - http://localhost:8080/seed/ 
 - http://localhost:8080/
 
+*Run/Build Docker-Composer*
+
+>docker-compose build
+
+>docker-compose up -d
+
+>docker-compose ps
+
+>docker exec -it alura-books-1 ping alura-books-2
+
+>docker exec -it alura-books-1 ping node2
