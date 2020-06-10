@@ -26,10 +26,10 @@
 *Rodando código em um container*
 >docker run -v "C:\Users\bruno.costa\Desktop\volume-exemplo:/var/www" node
 
->docker run -v "C:\Users\Alura\bruno.costa\volume-exemplo:/var/www" node npm start
+>docker run -v "C:\Users\bruno.costa\Desktop\volume-exemplo:/var/www" node npm start
 
 >docker run -p 8080:3000 -v "C:\Users\bruno.costa\Desktop\volume-exemplo:/var/www" node npm start
 
->docker run -p 8080:3000 -v "C:\Users\Alura\bruno.costa\volume-exemplo:/var/www" -w "/var/www" node npm start
+>docker run -p 8080:3000 -v "C:\Users\bruno.costa\Desktop\volume-exemplo:/var/www" -w "/var/www" node npm start
 
 >docker run -p 8080:3000 -v "$(pwd):/var/www" -w "/var/www" node npm start
